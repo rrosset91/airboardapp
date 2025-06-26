@@ -14,9 +14,15 @@ export function resolveNearestAirport(lat: number, lon: number): ResolvedAirport
   let closestDistance = Number.MAX_SAFE_INTEGER;
 
   for (const airport of airports) {
+    const airportLat = typeof airport.lat === 'string'
+      ? parseFloat(airport.lat)
+      : airport.lat;
+    const airportLon = typeof airport.lon === 'string'
+      ? parseFloat(airport.lon)
+      : airport.lon;
     const distance = geolib.getDistance(
       { latitude: lat, longitude: lon },
-      { latitude: airport.lat, longitude: airport.lon }
+      { latitude: airportLat, longitude: airportLon }
     );
     const km = distance / 1000;
 
