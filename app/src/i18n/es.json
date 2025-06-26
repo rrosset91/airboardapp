@@ -1,0 +1,10 @@
+{
+	"loading": "Cargando...",
+	"outside_airport": "La aplicación solo funciona dentro de un aeropuerto.",
+	"confirm_location": "Confirmar ubicación",
+	"you_are_at": "Estás en el aeropuerto:",
+	"simulated_location": "Simulando aeropuerto:",
+	"cancel": "Cancelar",
+	"confirm": "Confirmar",
+	"error_fetching_flights": "No se pudieron cargar los vuelos."
+}

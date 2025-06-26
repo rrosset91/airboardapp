@@ -1,0 +1,36 @@
+{
+	"loading": "Carregando...",
+	"outside_airport": "O app só funciona dentro de um aeroporto.",
+	"confirm_location": "Confirmar localização",
+	"you_are_at": "Você está no aeroporto:",
+	"simulated_location": "Simulando aeroporto:",
+	"cancel": "Cancelar",
+	"confirm": "Confirmar",
+	"error_fetching_flights": "Não foi possível carregar os voos.",
+	"to": "Destino",
+	"scheduled_time": "Horário previsto",
+	"estimated_time": "Est. atualizado",
+	"gate": "Portão",
+	"label_flight": "Voo",
+	"label_time": "Horário",
+	"label_to": "Para",
+	"label_gate": "Portão",
+	"label_flights": "Vôo",
+	"label_airline": "Companhia aérea",
+	"label_departure": "Partida",
+	"label_arrival": "Chegada",
+	"label_scheduled": "Programado",
+	"label_estimated": "Estimado",
+	"label_status_raw": "Status",
+	"label_departure_delay": "Atraso na partida",
+	"status": {
+	  "scheduled": "Programado",
+	  "active": "Em voo",
+	  "landed": "Aterrissado",
+	  "cancelled": "Cancelado",
+	  "incident": "Incidente",
+	  "diverted": "Desviado",
+	  "delayed": "Atrasado"
+	}
+  }
+  
